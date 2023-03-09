@@ -1,0 +1,482 @@
+@media screen and (min-width: 992px) {
+
+    *,
+    html,
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background-color: #f2f2f2;
+    }
+
+    :root {
+        --primary : #232323;
+        --secondary : #FFB300;
+    }
+
+    nav {
+        background-color: var(--primary);
+        height: 75px;
+        border-bottom: 1px solid black;
+    }
+
+    nav ul {
+        margin-right: 20px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+        border: 1px solid var(--secondary);
+        padding: 10px 20px;
+    }
+
+    nav ul li a {
+        color: var(--secondary);
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    nav ul li:hover {
+        opacity: .7;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .judul {
+        text-align: center;
+        height: 300px;
+        color: var(--primary);
+    }
+
+    .text-judul {
+        padding: 100px;
+    }
+
+    .text-judul h4 {
+        margin-top: 50px;
+        opacity: .7;
+        color: #ACACAC;
+        font-weight: 100;
+    }
+
+    .content {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .kiri {
+        width: 60%;
+        text-align: center;
+    }
+
+    .kiri img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .testimoni {
+        margin: 10px auto;
+    }
+
+    .profile {
+        display: inline-flex;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .profile img {
+        border: 1px solid var(--secondary);
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .profile p {
+        margin: auto 10px;
+    }
+
+    .judul-benefit {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .wrapper-benefit {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .number {
+        margin-top: 8px;
+        margin-right: 10px;
+        color: white;
+        background-color: var(--primary);
+        border: 1px solid;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 120px;
+    }
+
+    .kanan {
+        width: 30%;
+        background-color: white;
+        border-radius: 30px;
+        height: fit-content;
+        color: var(--primary)
+    }
+
+    .wrapper-kanan {
+        margin: 40px
+    }
+
+    .form {
+        margin-top: 30px;
+    }
+
+    .kanan p {
+        margin: 20px auto;
+        font-size: small;
+        color: var(--primary);
+    }
+
+    .form p {
+        font-weight: bold;
+        margin: 5px;
+        color: var(--primary);
+    }
+
+    .form input {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    #dropdown {
+        width: 102%;
+        height: 40px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 2px solid;
+    }
+
+    button {
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--secondary);
+        cursor: pointer;
+    }
+
+    button:hover {
+        opacity: .7;;
+    }
+
+    .container {
+        height: 200px;
+        background-color: var(--primary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--secondary);
+    }
+
+    .wrapper {
+        text-align: center;
+        margin-bottom: 50px ;
+    }
+
+    .travel {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .row {
+        text-align: center;
+        width: 360px;
+        margin: 20px;
+    }
+
+    .img-travel {
+        text-align: center;
+    }
+
+    .img-travel img {
+        border: 1px solid black;
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
+        display: inline-flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .closing {
+        margin: 50px 300px;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: var(--primary);
+        color: var(--secondary);
+    }
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    *,
+    html,
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    :root {
+        --primary : #232323;
+        --secondary : #FFB300;
+    }
+
+    nav {
+        background-color: var(--primary);
+        height: 75px;
+        border-bottom: 1px solid;
+    }
+
+    nav ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+        border: 1px solid var(--secondary);
+        padding: 5px 10px;
+    }
+
+    nav ul li a {
+        color: var(--secondary);
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .judul {
+        text-align: center;
+        height: 300px;
+    }
+
+    .text-judul {
+        padding: 80px;
+    }
+
+    .text-judul h4 {
+        margin-top: 50px;
+        opacity: .7;
+        color: #ACACAC;
+        font-weight: 100;
+    }
+
+    .content {
+        margin-bottom: 50px;
+    }
+
+    .kiri {
+        text-align: center;
+    }
+
+    .img1 {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+
+    .testimoni {
+        margin-top: 25px;
+        font-size: medium;
+        font-style: italic;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        opacity: .5;
+    }
+
+    .img2 {
+        border: 1px solid black;
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile p {
+        margin: auto 10px;
+        font-size: 14px;
+    }
+
+    .judul-benefit {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: small;
+    }
+
+    .wrapper-benefit {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: small;
+        text-align: justify;
+        margin: auto 10px;
+    }
+
+    .number {
+        margin-top: 8px;
+        color: white;
+        background-color: var(--primary);
+        border: 1px solid;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .kanan {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .kanan p {
+        margin: 20px auto;
+        font-size: small;
+    }
+
+    .form p {
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .form input {
+        margin: 10px;
+        width: 70%;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    #dropdown {
+        margin: 10px;
+        width: 71%;
+        height: 40px;
+        border-radius: 10px;
+        border: 2px solid;
+    }
+
+    button {
+        display: block;
+        margin: 10px auto;
+        width: 72%;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--secondary);
+        cursor: pointer;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        background-color: var(--primary);
+        color: var(--secondary);
+    }
+
+    .wrapper {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .travel {
+        margin-top: 20px;
+    }
+
+    .travel img {
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 100%;
+        height: 70px;
+        width: 70px;
+    }
+
+    .travel h4 {
+        margin-bottom: 10px;
+    }
+
+    .travel p {
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+
+    .closing {
+        text-align: center;
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-closing {
+        width: 80%;
+        font-size: medium;
+        font-stretch: condensed;
+    }
+
+    .footer {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary);
+    }
+
+    .footer p {
+        margin: auto;
+        color: var(--secondary);
+    }
+}
